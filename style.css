@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 400px 0px;
+}
+
+.links, a{
+    gap: 150px;
+    justify-content: space-evenly;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.logo-image{
+    height: 64px;
+    width: auto;
+}
+
+.hero-image{
+    height: 340px; 
+    width: auto;
+    border-radius: 15px;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 400px;
+    gap: 100px;
+    background-color: #1f2937;
+}
+
+.hero-left{
+    flex-direction: column;
+}
+
+h1{
+    font-size: 38px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 16px;
+    color: #e5e7eb;
+    margin-bottom: 25px;
+}
+
+button{
+    border: 4px solid #e5e7eb; 
+    background: linear-gradient(#e74c3c, #f1c40f);
+    color: #e5e7eb;
+    border-radius: 4px;
+    padding: 10px 45px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.info-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 50px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 400px;
+    gap:60px;
+}
+
+.text{
+    color: #1f2937;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info-image{
+    border: 5px solid #39485e;
+    border-radius: 5px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}  
+
+.quote-text{
+    color: #1f2937;
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author{
+    color:#1f2937;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.last{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-container{
+    border: 5px solid;
+    background: linear-gradient(#e74c3c, #f1c40f);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.last-left{
+    padding: 15px 10px;
+}
+
+.last-title{
+    color: #1f2937;
+}
+
+.last-text{
+    color: #1f2937;
+    font-size: 18px;
+}
+
+.aegis{
+    margin-right: 25px;
+}
+
+.footer{
+    height: 50px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright{
+    color: #f9faf8;
+}
